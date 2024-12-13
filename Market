@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>购书页面</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+      .container {
+            width: 80%;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        p {
+            color: #666;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+
+        a {
+            display: block;
+            margin-top: 10px;
+            color: #007bff;
+        }
+
+        /* 新增的样式用于调整问卷区域 */
+      .survey-container {
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+ <!-- 问卷区域 -->
+        <div class="survey-container">
+            <h1>填写购买信息</h1>
+            <script type='text/javascript' src='https://www.wjx.cn/handler/jqemed.ashx?activity=tpmPTlX&width=750&source=iframe'></script>
+        </div>
+    </div>
+
+    <div class="container">
+        <p>请点击下方按钮进行微信支付</p>
+        <button onclick="location.href='https://sjt.wxpapp.wechatpay.cn/sjt/linkqrcodepay/home?lid=d7b9468163e79878d20ee9b3ec1fe995_001&jc=ABDb5hAaAAABAAAAAABjS0xqEP8-WbS_RktcZxAAAACRIpmKrvjGGaQOgKcjIo9sgaAbQG_hr7EOn-madht72LGJlCTRVnkal0P675KWJqTlH0YFnxccyUsTj-B461Sda7gRoKjJozN2OhOGokVo-PLTAOADOOaWW8osNIXNuvU&sid=YmY0YWMzMTJjMTdiYTEyNHRuaElJd0FYRGc0RE1mSUZOZUNHcXdwMjZYT0I0bU42R2JUUjl0V2lZblhRakUxTTJTOXpsV0pPWTZ1Yi9KdjdhKy83Und0VnNpREVZSElaSzBheEh3PT0&exportkey=n_ChQIAhIQBXtz%2F8pAk7LQuOgOB9Lz0RK0AQIE97dBBAEAAAAAAPqSL5TajTYAAAAOpnltbLcz9gKNyK89dVj0Yyhl14ZFeUsgx5J%2FtLDoMQfg1pqVZ%2FCMsQDtLJQO9RKyHJbt%2BhfE%2F1aQ7F4yJL5zVW%2BA1iPYydivNeAQsFc224mTIeCksu1lGSZy4XgWnYJsf0CLuBcBaZv6RIPMYkBjGKQXtbawPhv%2BRaBSua8nP3LwT6bieQcLtFyCqUEmhPNmMQBBQyMimOotPaS85A%3D%3D&wx_header=0#'">点击支付</button>
+        <a href="https://sjt.wxpapp.wechatpay.cn/sjt/linkqrcodepay/home?lid=d7b9468163e79878d20ee9b3ec1fe995_001&jc=ABDb5hAaAAABAAAAAABjS0xqEP8-WbS_RktcZxAAAACRIpmKrvjGGaQOgKcjIo9sgaAbQG_hr7EOn-madht72LGJlCTRVnkal0P675KWJqTlH0YFnxccyUsTj-B461Sda7gRoKjJozN2OhOGokVo-PLTAOADOOaWW8osNIXNuvU&sid=YmY0YWMzMTJjMTdiYTEyNHRuaElJd0FYRGc0RE1mSUZOZUNHcXdwMjZYT0I0bU42R2JUUjl0V2lZblhRakUxTTJTOXpsV0pPWTZ1Yi9KdjdhKy83Und0VnNpREVZSElaSzBheEh3PT0&exportkey=n_ChQIAhIQBXtz%2F8pAk7LQuOgOB9Lz0RK0AQIE97dBBAEAAAAAAPqSL5TajTYAAAAOpnltbLcz9gKNyK89dVj0Yyhl14ZFeUsgx5J%2FtLDoMQfg1pqVZ%2FCMsQDtLJQO9RKyHJbt%2BhfE%2F1aQ7F4yJL5zVW%2BA1iPYydivNeAQsFc224mTIeCksu1lGSZy4XgWnYJsf0CLuBcBaZv6RIPMYkBjGKQXtbawPhv%2BRaBSua8nP3LwT6bieQcLtFyCqUEmhPNmMQBBQyMimOotPaS85A%3D%3D&wx_header=0#/" target="_blank">完整支付链接：https://sjt.wxpapp.wechatpay.cn/sjt/linkqrcodepay/home...</a>
+
+</body>
+
+</html>
